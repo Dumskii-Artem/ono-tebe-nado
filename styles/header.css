@@ -1,0 +1,51 @@
+.header {
+    display:grid;
+    gap:10px;
+    grid-template-columns: 1fr 148px 1fr;
+    grid-template-rows: 105px;
+    align-items:center;
+    font-size: 24px;
+    font-weight: 400;
+
+    padding: 43px 24px 143px 24px;
+}
+
+.header__menu {
+    justify-self: left;
+}
+
+.header__links-list {
+    display: flex;
+    list-style-type: circle;
+    gap: 44px;
+    margin-left: 44px;
+}
+
+/* смотри следующее объявление */
+/* 
+.header__link-list-item {
+} */
+
+.header__link-list-item:first-of-type {
+    list-style-type: none;
+}
+
+.header__link {
+    text-decoration: underline;
+    text-underline-offset: 8%;
+}   
+
+.header__link_active {
+    text-decoration: none;
+}
+
+/*
+.header__logo {
+}*/
+
+.header__logo-image {
+    width: 180px;
+}
+
+
+

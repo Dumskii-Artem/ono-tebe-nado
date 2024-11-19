@@ -1,0 +1,44 @@
+.footer {
+    display:grid;
+    gap:10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 242px 37px 88px 70px;
+}
+
+.footer__menu {
+    justify-self: center;
+    text-align: center;
+}
+
+.footer__menu-list {
+    list-style: none;
+
+}
+
+/*
+.footer__menu-link {}
+*/
+
+.footer__social-list {
+    display: flex;
+    gap: 66px;
+    list-style: none;
+    justify-self: end;
+
+}
+/*
+.footer__social-list-item {
+    width: 96;
+}
+*/
+
+/*
+.footer__social-link {}
+*/
+
+.footer__social_icon {
+    height: 63px;
+    width: 63px;
+}
