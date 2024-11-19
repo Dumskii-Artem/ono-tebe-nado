@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    gap: 36px;
-    padding: 239px 2px 0 36px;
+    gap: 31px;
+    padding: 224px 0px 0 20px;
 }
 
 .lots__heading {
