@@ -1,13 +1,13 @@
 .header {
     display:grid;
-    gap:10px;
-    grid-template-columns: 1fr 148px 1fr;
+/*    gap:10px;*/
+    grid-template-columns: 1fr 130px 1fr;
     grid-template-rows: 105px;
     align-items:center;
-    font-size: 23px;
+    font-size: 18px;
     font-weight: 400;
 
-    padding: 131px 24px 131px 21px;
+    padding: 93px 1px 96px 19px;
 }
 
 .header__menu {
@@ -17,8 +17,9 @@
 .header__links-list {
     display: flex;
     list-style-type: circle;
-    gap: 38px;
-    margin-left: 44px;
+    gap: 34px;
+    margin-left: 33px;
+    margin-top: 6px;
 }
 
 /* смотри следующее объявление */
@@ -43,8 +44,9 @@
 .header__logo {
 }*/
 
+
 .header__logo-image {
-    width: 180px;
+    width: 136px;
 }
 
 
