@@ -5,7 +5,7 @@
     background-position: center;
     background-size: cover;
     color: #fff;
-    height: 1009px;
+    height: 945px;
     width: 102%;
     z-index: 0;
     text-transform: uppercase;
@@ -15,14 +15,14 @@
     position: relative;
     display: block;
     z-index: 2;
-    padding: 218px 71px 30px 70px; 
+    padding: 207px 62px 23px 64px;
 }
 
 .aligned-text {
     position: relative;
     display: block;
     padding-bottom: 10px;
-    letter-spacing: 46px;
+    letter-spacing: 38px;
     width: 100%;
     z-index: 2;
 }
@@ -37,7 +37,7 @@
 
 /* управление межбуквенным расстоянием */
 .letter-spacing-extended {
-    letter-spacing: 87px;
+    letter-spacing: 74px;
 }
 
 /* управление межбуквенным расстоянием */
@@ -48,15 +48,15 @@
 .cover__description {
     position: relative;
     display:grid;
-    grid-template-columns: 1fr 410px;
-    grid-template-rows: 68px;
+    grid-template-columns: 1fr 387px;
+    grid-template-rows: 63px;
     z-index: 1;
     bottom: -127px;
 }
 
 .cover__description-text {
-    word-spacing: 26px;
-    font-size: 29px;
+    word-spacing: 29px;
+    font-size: 26px;
     align-self: center;
     margin-left: auto;
     margin-right: auto;
@@ -65,11 +65,11 @@
     background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
-    padding-top: 15px;
-    padding-right: 44px;
-    padding-bottom: 15px;
-    padding-left: 46px;
-    font-size: 29px;
+    padding-top: 10px;
+    padding-right: 42px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    font-size: 27px;
     margin-right: auto;
     text-transform: uppercase;
  }

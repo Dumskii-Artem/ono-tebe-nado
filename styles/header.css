@@ -4,10 +4,10 @@
     grid-template-columns: 1fr 148px 1fr;
     grid-template-rows: 105px;
     align-items:center;
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 400;
 
-    padding: 43px 24px 143px 24px;
+    padding: 131px 24px 131px 21px;
 }
 
 .header__menu {
@@ -17,7 +17,7 @@
 .header__links-list {
     display: flex;
     list-style-type: circle;
-    gap: 44px;
+    gap: 38px;
     margin-left: 44px;
 }
 
