@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: #fff;
     gap: 25px;
-    padding: 179px 26px 0px 24px;
+    padding: 186px 26px 0px 24px;
 }
 
 .lots__heading {
@@ -97,7 +97,7 @@
     text-underline-offset: 10%;
     text-decoration: underline;
     padding-left: 38px;
-    padding-top: 6px;
+    padding-top: 2px;
 }
 
 

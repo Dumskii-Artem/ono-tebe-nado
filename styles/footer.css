@@ -4,7 +4,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     font-size: 18px;
     font-weight: 400;
-    padding: 182px 49px 88px 52px;
+    padding: 148px 49px 88px 52px;
 }
 
 .footer__menu {
@@ -22,13 +22,13 @@
 }
 
 .footer__menu-link_active {
-    text-decoration: underline;
+    text-decoration: none;
 }
-
+/*
 .footer__menu-link:first-of-type {
     text-decoration: none;
 }
-
+*/
 .footer__social-list {
     display: flex;
     gap: 48px;
