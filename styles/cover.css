@@ -51,7 +51,7 @@
     grid-template-columns: 1fr 305px;
     grid-template-rows: 53px;
     z-index: 1;
-    bottom: -112px;   
+    bottom: -112px;
 }
 
 .cover__description-text {
