@@ -6,7 +6,7 @@
     background-size: cover;
     color: #fff;
     height: 756px;
-    width: 102%;
+    /*width: 100%;*/
     z-index: 0;
     text-transform: uppercase;
 }
@@ -15,7 +15,7 @@
     position: relative;
     display: block;
     z-index: 2;
-    padding: 165px 54px 2px 53px;
+    padding: 165px 49px 2px 53px;
 }
 
 .aligned-text {
@@ -37,7 +37,7 @@
 
 /* управление межбуквенным расстоянием */
 .letter-spacing-extended {
-    letter-spacing: 55px;
+    letter-spacing: 59px;
 }
 
 /* управление межбуквенным расстоянием */

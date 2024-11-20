@@ -6,8 +6,8 @@
     align-items:center;
     font-size: 18px;
     font-weight: 400;
-
-    padding: 93px 1px 96px 19px;
+    background-color: blueviolet;
+    padding: 93px 22px 96px 19px;
 }
 
 .header__menu {

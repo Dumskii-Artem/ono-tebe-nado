@@ -2,23 +2,24 @@
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    gap: 31px;
-    padding: 224px 0px 0 20px;
+    gap: 25px;
+    padding: 179px 26px 0px 24px;
 }
 
 .lots__heading {
     text-transform: uppercase;
-    padding: 0 53px;
+    /*padding: 0px 53px 0px 35px;*/
+    padding-left: 38px;
 }
 
 .lots__card-list {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    flex-grow: 1;
+ /*   flex-grow: 1;*/
     width: 100%;
     list-style: none;
-    gap: 34px;
+    gap: 26px;
     justify-content: space-between;
     color: #fff;
 
@@ -39,15 +40,18 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    min-height: 750px;
-    width: 430px;
+
+    /* влияет на момент появления второго ряда карточек */
+    width: 320px;
+
     z-index: 0;
-    padding: 69px 58px 65px 55px;
+    padding: 54px 37px 48px 40px;
     min-width: 100%;
     object-fit: cover;
     vertical-align: bottom;
     background-position: center;
     background-size: cover;
+    height: 566px;
 
 
     /*background-position: center;
@@ -78,22 +82,22 @@
 }
 .card__text {
     display: block;
-    font-size: 26px;
+    font-size: 20px;
     z-index: 2;
     align-self: flex-end;
     align-content: flex-end;
     justify-content: end;
     justify-self: end;
     margin-top: auto;
-    line-height: 1.23;
+    line-height: 1.2;
 }
 .lots__look-more-link {
-    font-size: 27px;
+    font-size: 20px;
     font-weight: 400;
     text-underline-offset: 10%;
     text-decoration: underline;
-    padding-left: 50px;
-    padding-top: 7px;
+    padding-left: 38px;
+    padding-top: 6px;
 }
 
 
