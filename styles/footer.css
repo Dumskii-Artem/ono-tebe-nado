@@ -1,10 +1,10 @@
 .footer {
-    display:grid;
-    gap:10px;
+    display: grid;
+    gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
-    padding: 242px 37px 88px 70px;
+    padding: 182px 49px 88px 52px;
 }
 
 .footer__menu {
@@ -17,17 +17,31 @@
 
 }
 
-/*
-.footer__menu-link {}
-*/
+.footer__menu-link {
+    text-decoration: underline;
+}
+
+
+.footer__menu-link:first-of-type {
+    text-decoration: none;
+}
 
 .footer__social-list {
     display: flex;
-    gap: 66px;
+    gap: 48px;
     list-style: none;
     justify-self: end;
 
 }
+/*
+.footer__link-list-item {
+    text-decoration: underline;
+}
+
+.footer__link-list-item:first-of-type {
+    text-decoration: none;
+}
+*/
 /*
 .footer__social-list-item {
     width: 96;
@@ -39,6 +53,6 @@
 */
 
 .footer__social_icon {
-    height: 63px;
-    width: 63px;
+    height: 48px;
+    width: 48px;
 }
