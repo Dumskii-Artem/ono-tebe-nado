@@ -21,6 +21,9 @@
     text-decoration: underline;
 }
 
+.footer__menu-link_active {
+    text-decoration: underline;
+}
 
 .footer__menu-link:first-of-type {
     text-decoration: none;

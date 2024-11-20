@@ -5,24 +5,11 @@
 @import "./about.css";
 @import "./footer.css";
 
-.body {
-    background-color:#fff;
-
-    /* если меньше, при сжатии плывет header__menu */
-    min-width: 1020px;
-
-    /* чтобы лоты перестраивались */
-    max-width: 1100px;
-
-/*    margin-left: 0; */
-/*    margin-right: 207px; */
-}
-
 h1 {
-    font-size: 104px;
+    font-size: 100px;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 1.1;
+    line-height: 115px;
 }
 
 h2 {
@@ -49,16 +36,18 @@ h3 {
 
 }
 
-.one_contact {
-    width: 210px;
+.contact {
+    max-width: 210px;
+    width: 100%;
+/*    width: 210px;*/
     text-underline-offset: 17%;
-    word-wrap: break-word;
+/*    word-wrap: break-word;*/
 }
 /* address end */
 
 .overlay {
     position: absolute;
-    opacity: 62%;
+    opacity: 60%;
     z-index: 1;
     background-color: #000;
     inset: 0;

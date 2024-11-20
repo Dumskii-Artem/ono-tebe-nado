@@ -5,9 +5,15 @@
 }
 
 body {
-  /*width: 1100px;*/
   margin: 0 auto;
   font-family: Raleway, sans-serif;
+  background-color:#fff;
+
+  /* если меньше, при сжатии плывет header__menu */
+  min-width: 1020px;
+
+  /* чтобы лоты перестраивались */
+  max-width: 1100px;
 }
 
 h1,
