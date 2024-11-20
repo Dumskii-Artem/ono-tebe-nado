@@ -6,7 +6,7 @@
 @import "./footer.css";
 
 .body {
-    background-color:#e6b5b5;
+    background-color:#fff;
 
     /* если меньше, при сжатии плывет header__menu */
     min-width: 1020px;
