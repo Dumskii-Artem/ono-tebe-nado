@@ -3,13 +3,13 @@
     display: block;
     background-color: #fff;
 
-    padding: 240px 51px 0 42px;
+    padding: 181px 2px 0 42px;
 }
 
 .about__grid {
     display: grid;
-    grid-template-columns: 430px 1fr;
-    grid-template-rows: 320px 1fr;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 240px 1fr;
     grid-template-areas:
     'about__column about__title'
     '. about__text';
@@ -26,8 +26,7 @@
 .about__logo {
     display: flex;
     position: relative;
-    width: 320px;
-    /*height: 240px;*/
+    width: 240px;
     border-radius: 50%;
     background-color: #000;
     justify-content: center;
@@ -36,7 +35,7 @@
 }
 
 .about__logo-image {
-    width: 194px;
+    width: 147px;
     align-self: center;
     top: 50px;
 }
@@ -52,12 +51,11 @@
 .about__text {
     display: flex;
     flex-direction: column;
-    gap: 36px;
-    grid-area: about__text; 
-    font-size: 27px;
+    gap: 26px;
+    grid-area: about__text;
+    font-size: 20px;
     font-weight: 400;
-    margin-top: -29px;
-    margin-right: -50px;
-    line-height: 1.18;
-    word-spacing: -0.4px;
+    margin: -33px 21px 0 0;
+    line-height: 1.2;
+    word-spacing: 1px;
 }
